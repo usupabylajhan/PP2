@@ -109,6 +109,7 @@ def delete_contact(value):
     cur.close()
     conn.close()
 
+
 if __name__ == "__main__":
     create_table()
     insert_from_csv("contacts.csv")
