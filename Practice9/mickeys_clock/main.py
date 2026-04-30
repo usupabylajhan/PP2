@@ -20,8 +20,8 @@ res_mickey    = pygame.transform.scale(mickey, (350, 350))
 hand_l_base   = pygame.transform.scale(hand_l, (151, 300))
 hand_r_base   = pygame.transform.scale(hand_r, (151, 300))
 
-CLOCK_CENTER = (300, 170)
-HAND_CENTER  = (600, 340)
+CLOCK_CENTER = (300, 180)
+HAND_CENTER  = (600, 320)
 
 while True:
     for event in pygame.event.get():
